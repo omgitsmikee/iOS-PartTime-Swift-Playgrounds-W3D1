@@ -71,14 +71,15 @@ for fruit in fruits {
 
 //: ## Bonus Challenge
 //: Write a function that takes in an array of numbers and prints each number in that array
-for entries in numbers2 {
-    print("\(entries)")
+func printNum (array:[Int]){
+    for entries in numbers2 {
+        print("\(entries)")
+    }
 }
 
 
 
 
 
-
 // Test it by uncommenting the below line of code:
-//printNum(numbers)
+printNum(numbers2)
